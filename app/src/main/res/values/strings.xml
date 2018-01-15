@@ -16,4 +16,109 @@
 
     <string name="btnNext">Next</string>
     <string name="btnSkip">Skip</string>
+    <string name="title_activity_nav">Learn Android</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="welcome">WELCOME TO</string>
+    <string name="heading_intro"> Welcome to Learn Android Development 2018</string>
+    <string name="intro_description">This application is a collection of documentation and links of tutorials
+    that will help the beginners get started with Android Development using Java. This application consists of
+    all of the links, youtube videos, channels, online courses that are intended for Application development for Android
+    using Java. All of the courses and videos that are listed within this application are free and legal.
+        \n\nIt consist of courses for beginners and intermediate level. For anyone just starting, they have to start from the
+    beginners section and is recommended to do so.The beginners course is targeted for people with less to no knowledge in Android app development
+    . The intermediate level of the courses provided here will focus on Java as programming language with designing tutorials too.
+    After you are done with the beginners and intermediate courses you should be able to develop simple application and designs
+    easily.
+        \n\nThe YouTube section will help you get started to build up the strong intermediate level. Here some of the best
+    channels which focuses on Android development are listed which is even handy for beginners however for complete beginners
+     it is recommended to start from the Beginners section. \n
+        \nAndroid Official Documentation is also one of the best place to study and research
+        on android app development. This consist all of the documentation. Go through the docs
+        if you get stuck in any attributes and syntax. \n
+        \nAlso i have decided to upload the source code of this application so that anyone
+        can download, see it and even make changes and distribute them freely. However giving credit is the only thing
+        you should not forget. Getting the links to the source code is bit tricky though, but i promise
+        it is within the app.
+    \n\nLet me tell you my secret, i also started from the beginners section and here i am building this application even without
+    completing the half of the intermediate level course.</string>
+    <string name="devName">-Sangam Adhikari</string>
+    <string name="beginners_h1">Beginners Section</string>
+
+    <string name="beginners_d1">This is the beginners section which will help you
+    get started in Android Development. It is recommended for the beginners.
+    All the courses are pulled from Udacity and are completely free. This is easy and intended for anyone
+    even for those who have never programmed in Android.\n\nThe following listed are the courses where
+    each courses have different videos and projects inside and users should not skip any of the
+    lessons.</string>
+
+    <!--Beginners Section-->
+    <string name="user_interface">User Interface :</string>
+    <string name="take_me_there">Take Me There</string>
+    <string name="user_input">User Input :</string>
+    <string name="multi_screen">Multi Screen :</string>
+    <string name="networking">Networking :</string>
+    <string name="data_storage">Data Storage :</string>
+    <string name="ux_designer">UX Designer :</string>
+
+    <!--Intermediate Section-->
+    <string name="intermediate_h1">Intermediate Section</string>
+    <string name="intermediate_d1">This is the Intermediate section. User should navigate and start this course only after
+        the completion of Beginners Section. This section will help you cover more than the basics
+    and might introduce you to the Java programming language so you can start writing functions and events for your
+    activities.\n\nTechniques behind the app monetization and Firebase are introduced in the section which also means after the
+    completion of the courses listed in the section you will be at least able to make a simple app, monetize it and upload it in the
+    Google Play.</string>
+    <string name="developing_android">Developing Android Apps :</string>
+    <string name="firebase">Firebase in Android :</string>
+    <string name="location_services">Location Services :</string>
+    <string name="analytics_services">Analytics Services :</string>
+    <string name="app_monetize">App Monetization :</string>
+    <string name="maps">Integrating Maps :</string>
+    <string name="youtube_h1">Youtube Channel Section</string>
+    <string name="youtube_d1">This section will help you to increase your strength in intermediate level
+        of programming in Android. Here some of the best channels from YouTube are listed where you will be
+    able to learn Android Development. Channels are not placed in any order which also means all of the channels are best. It is the
+        decision of yours to decide which channel is best for you. If you are one of the creators creating quality youtube videos
+        in Android Development, do comment in the Google Play review section to add your channel here. We will review and upadate
+        it accordingly.
+    </string>
+    <string name="prabeesh">Image of Prabeesh RK YouTube Channel</string>
+    <string name="saokosal">Image of Oum Saokosal YouTube Channel</string>
+    <string name="tvac">Youtube Channel for TVAC</string>
+    <string name="appeteria">Youtube Channel for Appeteria</string>
+    <string name="thenewboston">Youtube Channel for the new boston</string>
+    <string name="delaroy">Youtube Channel for Delaroy Studio</string>
+    <string name="aws">Youtube Channel for AWS</string>
+    <string name="edmt">Youtube Channel for EDMT TV</string>
+    <string name="tonikamitv">Youtube Channel for Tonikami TV</string>
+    <string name="google_dev">Youtube channel for Google Developers</string>
+    <string name="telusko">Youtube Channel for Telusko Learning</string>
+    <string name="android_dev">Youtube Channel for Android Developers</string>
+    <string name="programming_guru">Youtube Channel for Programming Guru</string>
+    <string name="android_docs">Android Official Documentation</string>
+    <string name="documentation_d1">The best place to search whether you are learning android or
+    developing application is the \"Official Android Documentation\" site. The site has
+    everything you need to know about developing apps in Android. \n\nInformation about the
+    views, their attributes and syntax are written there. It will be a goto site if you
+    are developing application as you may forget the attributes sometime which is normal, everyone can\'t
+    remember everything.</string>
+    <string name="docs_button">Official Documentation</string>
+    <string name="source_code">Source Code</string>
+    <string name="source_d1">As a programmer i always wondered how application and software are written,how many of lines
+    of code does it take to write a working complete application etc. This is the reason i have decided to share the
+    source code of the application you are currently using. And i\'m sure that this will help the beginners to rectify their
+    mistakes in code and the way codes are written for any features or function which are implemented within the application.
+    \n\nHowever getting the source code of this application is bit tricky but i promise, you will get the link to the source code
+    within the app. Also do share your experience about the application and the time you took to find out the link to the
+    source code in the Google Play reviews and ratings section.</string>
+    <string name="hint">[Hint: My lucky number is 7.]</string>
+
+
 </resources>

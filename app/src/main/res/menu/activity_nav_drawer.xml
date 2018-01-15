@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_intro"
+            android:icon="@mipmap/intro"
+            android:title="Introduction"
+            android:checked="true"
+            />
+        <item
+            android:id="@+id/nav_beginners"
+            android:icon="@mipmap/beginner"
+            android:title="Beginners"
+            />
+        <item
+            android:id="@+id/nav_intermediate"
+            android:icon="@mipmap/intermediate"
+            android:title="Intermediate" />
+        <item
+            android:id="@+id/nav_youtube"
+            android:icon="@mipmap/youtube"
+            android:title="Youtube Channels" />
+
+        <item
+            android:id="@+id/nav_officialDocs"
+            android:icon="@mipmap/official"
+            android:title="Android Official Docs" />
+        <item
+            android:id="@+id/nav_sourceCode"
+            android:icon="@mipmap/code"
+            android:title="Source Code" />
+    </group>
+</menu>

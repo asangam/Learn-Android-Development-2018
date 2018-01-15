@@ -1,0 +1,217 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/frameLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.asangam.learnandroid2018.YoutubeFragment">
+
+        <TextView
+            android:id="@+id/youtube_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-condensed"
+            android:lineSpacingExtra="3sp"
+            android:text="@string/youtube_h1"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/view"
+            style="@style/divider"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/youtube_desc" />
+
+        <TextView
+            android:id="@+id/youtube_desc"
+            android:layout_width="0dp"
+            android:layout_height="258dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@android:color/black"
+            android:text="@string/youtube_d1"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/youtube_heading"
+            android:layout_marginRight="4dp"
+            android:layout_marginLeft="8dp" />
+
+        <ImageButton
+            android:id="@+id/btnImgPrabeesh"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/prabesh"
+            android:contentDescription="@string/prabeesh"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view"
+            android:layout_marginLeft="15dp" />
+
+        <ImageButton
+            android:id="@+id/btnImgSaokosal"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/oumsako"
+            android:contentDescription="@string/saokosal"
+            app:layout_constraintStart_toEndOf="@+id/btnImgPrabeesh"
+            app:layout_constraintTop_toBottomOf="@+id/view"
+            android:layout_marginLeft="10dp" />
+
+        <ImageButton
+            android:id="@+id/btnImgTvac"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/tvac"
+            android:contentDescription="@string/tvac"
+            app:layout_constraintStart_toEndOf="@+id/btnImgSaokosal"
+            app:layout_constraintTop_toBottomOf="@+id/view"
+            android:layout_marginLeft="10dp" />
+
+        <ImageButton
+            android:id="@+id/appeteria"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/appeteria"
+            android:contentDescription="@string/appeteria"
+            app:layout_constraintStart_toEndOf="@+id/btnImgTvac"
+            app:layout_constraintTop_toBottomOf="@+id/view"
+            android:layout_marginLeft="20dp" />
+
+        <ImageButton
+            android:id="@+id/thenewboston"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/thenewboston"
+            android:contentDescription="@string/thenewboston"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnImgPrabeesh"
+            android:layout_marginLeft="15dp" />
+
+        <ImageButton
+            android:id="@+id/delaroy"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/delaroy"
+            android:contentDescription="@string/delaroy"
+            app:layout_constraintStart_toEndOf="@+id/thenewboston"
+            app:layout_constraintTop_toBottomOf="@+id/btnImgSaokosal"
+            android:layout_marginLeft="10dp" />
+
+        <ImageButton
+            android:id="@+id/aws"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/aws"
+            android:contentDescription="@string/aws"
+            app:layout_constraintStart_toEndOf="@+id/delaroy"
+            app:layout_constraintTop_toBottomOf="@+id/btnImgTvac"
+            android:layout_marginLeft="10dp" />
+
+        <ImageButton
+            android:id="@+id/edmt"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/edmt"
+            android:contentDescription="@string/edmt"
+            app:layout_constraintStart_toEndOf="@+id/aws"
+            app:layout_constraintTop_toBottomOf="@+id/appeteria"
+            android:layout_marginLeft="10dp" />
+
+        <ImageButton
+            android:id="@+id/tonikami"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/tonikami"
+            android:contentDescription="@string/tonikamitv"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/thenewboston"
+            android:layout_marginLeft="15dp" />
+
+        <ImageButton
+            android:id="@+id/google_dev"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/googledev"
+            android:contentDescription="@string/google_dev"
+            app:layout_constraintStart_toEndOf="@+id/tonikami"
+            app:layout_constraintTop_toBottomOf="@+id/delaroy"
+            android:layout_marginLeft="10dp" />
+
+        <ImageButton
+            android:id="@+id/telesko"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/telesko"
+            android:contentDescription="@string/telusko"
+            app:layout_constraintStart_toEndOf="@+id/google_dev"
+            app:layout_constraintTop_toBottomOf="@+id/aws"
+            android:layout_marginLeft="10dp" />
+
+        <ImageButton
+            android:id="@+id/android_dev"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/androiddev"
+            android:contentDescription="@string/android_dev"
+            app:layout_constraintStart_toEndOf="@+id/telesko"
+            app:layout_constraintTop_toBottomOf="@+id/edmt"
+            android:layout_marginLeft="10dp" />
+
+        <ImageButton
+            android:id="@+id/btnImgProgrammingGuru"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/ic_android_black_24dp"
+            android:contentDescription="@string/programming_guru"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tonikami"
+            android:layout_marginLeft="15dp" />
+
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
