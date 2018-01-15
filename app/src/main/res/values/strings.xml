@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Learn Android Development 2018</string>
+    <string name="introFirst"> Learn Android Development</string>
+    <string name="descFirst"> Hi, \n So you wanted to learn how to build an android app with no prior coding experience
+    ?\nDon\'t worry, this app might be the perfect start for you in 2018.</string>
+
+    <string name="introSecond">From the Scratch</string>
+    <string name="descSecond">Learn from variety of sources.\nI\'m sure this will help the beginners to get started.</string>
+
+    <string name="introThird">Believe in yourself</string>
+    <string name="descThird">Have patience and faith.\nIt takes time but i promise it worth\'s. </string>
+
+    <string name="introLast">Open-Sourced</string>
+    <string name="descLast">Can you believe the application you are viewing, it\'s source can be
+    freely downloaded from GitHub?\nNavigate to the Source Code section for more.</string>
+
+    <string name="btnNext">Next</string>
+    <string name="btnSkip">Skip</string>
+</resources>

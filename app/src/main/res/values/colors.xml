@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#673AB7</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Background colors for the intro screen-->
+
+    <color name="introFirst">#E81E63</color>
+    <color name="introSecond">#8C27B0</color>
+    <color name="introThird">#008688</color>
+    <color name="introLast">#ff8800</color>
+
+    <!--  Darker colors for the dots-->
+    <color name="dotDarkFirst">#a4073d</color>
+    <color name="dotDarkSecond">#590478</color>
+    <color name="dotDarkThird">#046566</color>
+    <color name="dotDarkLast">#c46a04</color>
+
+    <!-- Light colors of the dots-->
+    <color name="dotLightFirst">#f24983</color>
+    <color name="dotLightSecond">#aa45ce</color>
+    <color name="dotLightThird">#168e8f</color>
+    <color name="dotLightLast">#fa9f38</color>
+
+    <!-- Creating arrays for the active and inactive dots-->
+
+    <array name="dotActive">
+        <item>@color/dotLightFirst</item>
+        <item>@color/dotLightSecond</item>
+        <item>@color/dotLightThird</item>
+        <item>@color/dotLightLast</item>
+    </array>
+
+    <array name="dotInactive">
+        <item>@color/dotDarkFirst</item>
+        <item>@color/dotDarkSecond</item>
+        <item>@color/dotDarkThird</item>
+        <item>@color/dotDarkLast</item>
+    </array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>
